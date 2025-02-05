@@ -29,13 +29,14 @@ function Registro() {
   };
 
   return (
-    <Container component="main" maxWidth="xl">
+    <Container component="main" maxWidth="xl" >
       <Box
         sx={{
           marginTop: 8,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          
         }}
       >
         <Avatar sx={{ margin: 1, backgroundColor: "rgb(154, 154, 154)" }}>
@@ -100,7 +101,7 @@ function Registro() {
             Cadastrar
           </Button>
         </Box>
-        Desenvolvido por:Guilherme, Hyago e Leonardo
+        Desenvolvido por: Guilherme, Hyago e Leonardo
       </Box>
     </Container>
   );
