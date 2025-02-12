@@ -87,7 +87,7 @@ function Cadastro() {
             label="E-mail"
             name="email"
             margin="normal"
-             color="rgb(154, 154, 154)"
+             color="rgb(153, 154, 154)"
             value={user.email}
             onChange={onChange}
           />
