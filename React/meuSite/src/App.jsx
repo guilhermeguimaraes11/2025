@@ -1,12 +1,8 @@
-import Component1 from "./Component";
+import Cadastro from './Cadastro/Cadastro'
+import Login from './Login/Login'
+
 function App() {
-
-  return (
-    <div>
-    <Component1></Component1>
-    </div>
-  );
+  return <div><Cadastro/></div>;
 }
+
 export default App;
-
-
