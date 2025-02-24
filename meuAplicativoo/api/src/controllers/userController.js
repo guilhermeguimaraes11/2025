@@ -143,7 +143,7 @@ module.exports = class userController {
           return res.status(500).json({error:"Erro interno do servidor"})
         }
         if(results.length===0){
-          return res.status(404).json({error:"Usuário não encontrado"})
+          return res.status(401).json({error:"Usuário não encontrado"})
         }
         const user = results[0];
          
@@ -158,3 +158,5 @@ module.exports = class userController {
     }
   }
 };
+
+
